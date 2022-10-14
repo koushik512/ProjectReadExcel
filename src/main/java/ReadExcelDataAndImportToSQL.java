@@ -27,6 +27,7 @@ public class ReadExcelDataAndImportToSQL
         try
         {
             // Give the Absolute Path of your file here
+            // Please verify the sql files are generated in resources module.
             File file = new File("src/main/resources/Details.xlsx");
             String fileName = file.getName().split("\\.")[0];
             FileInputStream inputStream = new FileInputStream(file);
