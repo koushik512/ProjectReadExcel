@@ -1,0 +1,1 @@
+Create Table Details ( Details_id serial PRIMARY KEY, Name VARCHAR(200) NOT NULL,Number VARCHAR(200) NOT NULL,City VARCHAR(200) NOT NULL,State VARCHAR(200) NOT NULL);
