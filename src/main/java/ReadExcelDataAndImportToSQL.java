@@ -112,7 +112,7 @@ public class ReadExcelDataAndImportToSQL
 
         StringBuilder sb = new StringBuilder();
         sb.append("Create Table "+fileName + " ( ");
-        sb.append(fileName+"_id INT PRIMARY KEY , ");
+        sb.append(fileName+"_id INT AUTO_INCREMENT PRIMARY KEY , ");
         for(int i = 0 ; i <rowHeaderFromExcel.size() ;i++){
             sb.append(rowHeaderFromExcel.get(i)+" VARCHAR(200) NOT NULL,");
         }
