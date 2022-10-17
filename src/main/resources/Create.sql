@@ -1,1 +1,1 @@
-Create Table Details ( Details_id serial PRIMARY KEY, Name VARCHAR(200) NOT NULL,Number VARCHAR(200) NOT NULL,City VARCHAR(200) NOT NULL,State VARCHAR(200) NOT NULL);
+Create Table tempexcel ( tempexcel_id INT PRIMARY KEY , Column1 VARCHAR(200) NOT NULL,Column2 VARCHAR(200) NOT NULL,Column3 VARCHAR(200) NOT NULL,Column4 VARCHAR(200) NOT NULL);

@@ -1,6 +1,3 @@
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 1" , "1234.0" , "Hyderabad" , "Telangana" );
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 2" , "2345.0" , "Vijayawada" , "Andhra Pradesh" );
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 3" , "1.2344555E7" , "Mumbai" , "Maharashtra" );
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 4" , "8900.0" , "Bangalore" , "Karnataka" );
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 5" , "1000.0" , "Chennai" , "Tamilnadu" );
-INSERT INTO Details (  Name , Number , City , State )  VALUES ( "Test 6 " , "1001.0" , "Gurgaon" , "Delhi" );
+INSERT INTO tempexcel ( tempexcel_id , Column 1 , Column 2 , Column 3 , Column4 )  VALUES (nextVal('tempexcel_id_seq' ) , 'row 1' , 'row 1' , 'row 1' , 'row 1' );
+INSERT INTO tempexcel ( tempexcel_id , Column 1 , Column 2 , Column 3 , Column4 )  VALUES (nextVal('tempexcel_id_seq' ) , 'row 2' , 'row 2' , 'row 2' , 'row 2' );
+INSERT INTO tempexcel ( tempexcel_id , Column 1 , Column 2 , Column 3 , Column4 )  VALUES (nextVal('tempexcel_id_seq' ) , 'row 3' , 'row 3' , 'row 3' , 'row 3' );
