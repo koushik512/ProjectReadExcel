@@ -144,7 +144,7 @@ public class ReadExcelDataAndImportToSQL
 //        System.out.println("-->"+insertQuery);
 
 
-        String nextValInQuery = "nextVal(\'"+sequenceName+"\' ,)";
+        String nextValInQuery = "nextVal(\'"+sequenceName+"\' ) ,";
         List<String> insertQueries = new ArrayList<>();
 
         for(int i = 1; i < rowBodyFromExcel.size(); i++)
